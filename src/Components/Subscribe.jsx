@@ -18,16 +18,17 @@ const Subscribe = () => {
               <h2 className="font-poppins font-semibold text-[39px] leading-[58px] text-white pt-[15px] " >Lets Stay In Touch</h2>
 
               </div>
-              <div className="lg:w-7/12 w-full">
               
+              <div className="lg:w-7/12 w-full">
                 <div className="py-[13px]  ps-[25px] rounded-[5px]   pe-[5px] bg-[#FFFFFF] flex ">
                     
                 <input type="email" placeholder="Enter your email" className="font-poppins w-full   font-normal text-[16px] leading-[24px] text-[#7B7B7B]  " />
-
+                    <div className=" md:w-5/12 ">
                 <button className="font-poppins font-medium text-[20px] leading-[30px]  text-white text-nowrap bg-[#FF5300] rounded-[5px] py-[15px] ps-[39px] pe-[33px] " > Subscribe Now </button>
+                    </div>
+              </div>
              
                 </div>
-              </div>
             </div>
           </div>
         </div>

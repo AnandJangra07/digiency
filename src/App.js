@@ -21,8 +21,8 @@ function App() {
       <Testimonial />
       <Capablities />
       <Blog />
-      {/* `n<Subscribe/>  */}
-      {/* <Fotter /> */}
+      <Subscribe/> 
+      <Fotter />
     </>
   );
 }

@@ -27,13 +27,8 @@ const Testimonial = () => {
           What Our Client Saying
         </h1>
 
-        <div className=" relative">
-          <div className=" absolute pre-btn left-[-75px] top-[50%]  translate-y-[-50%]">
-            <img src={leftbtn} alt="" className="md:hidden sm:hidden" />
-          </div>
-          <div className=" absolute next-btn  right-[-75px] top-[50%]  translate-y-[-50%]">
-            <img src={rightbtn} alt="" className="md:hidden sm:hidden" />
-          </div>
+        <div className=" relative ">
+         
 
           <Swiper
             spaceBetween={30}
@@ -172,6 +167,15 @@ const Testimonial = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+
+          <div className="flex gap-4   justify-center max-sm:pt-4">
+             <div className=" sm:absolute pre-btn sm:left-[-75px] sm:top-[50%]  sm:translate-y-[-50%]">
+            <img src={leftbtn} alt="" className="" />
+          </div>
+          <div className=" sm:absolute next-btn  sm:right-[-75px] sm:top-[50%]  sm:translate-y-[-50%]">
+            <img src={rightbtn} alt="" className="" />
+          </div>
+          </div>
         </div>
       </div>
     </section>
